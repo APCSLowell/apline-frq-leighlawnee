@@ -3,6 +3,12 @@ private int a;
 private int b;
 private int c;
 
+APLine(int x, int y, int z){
+a = x;
+b = y;
+c = z;
+}
+
 public double getSlope(){
 return -a/(double)b;
 }
