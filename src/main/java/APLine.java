@@ -8,7 +8,7 @@ return -a/(double)b;
 }
   
 public boolean isOnLine(int x, int y){
-return ax + by + c ==0;
+return a*x + b*y + c ==0;
 }
 
 }
